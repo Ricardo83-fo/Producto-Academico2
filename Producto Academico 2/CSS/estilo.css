@@ -1,0 +1,44 @@
+.section-1{
+    width: 100%;
+    height: 100;
+    background: linear-gradient(90,#ca87ea,#ff5500);
+    padding: 1.5em;
+}
+.header{
+    background-color: green;
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 15%;
+    height: 100%;
+}
+.menu{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color:beige;
+    padding: 2em 1em;
+}
+.menu a:hover{
+    background-color: #ff5500;
+}
+.table{
+    flex-direction: column;
+}
